@@ -138,6 +138,6 @@ Validates all components that work without a Trn2 instance: imports, config sani
 
 ## References
 
-- **AccelOpt**: Jia et al., "AccelOpt: An NKI Kernel Optimization Agent on Trainium" (2025). [arXiv:2502.15253](https://arxiv.org/abs/2502.15253) — NKI-native Planner/Executor/Summarizer workflow, optimization memory, NKIBench profiling metrics.
+- **AccelOpt**: Jia et al., "AccelOpt: An NKI Kernel Optimization Agent on Trainium" (2025). [GitHub](https://github.com/zhang677/AccelOpt)[arXiv:2502.15253](https://arxiv.org/abs/2511.15915) — NKI-native Planner/Executor/Summarizer workflow, optimization memory, NKIBench profiling metrics.
 - **KernelAgent**: Meta PyTorch, "KernelAgent — Multi-Agent GPU Kernel Synthesis and Optimization." [GitHub](https://github.com/meta-pytorch/KernelAgent) / [Blog](https://pytorch.org/blog/kernelfalcon-autonomous-gpu-kernel-generation-via-deep-agents/) — Parallel worker verification, reflexion, divergence-based revert, roofline-guided bottleneck analysis.
 - **NKI Documentation**: [AWS Neuron NKI Guide](https://awsdocs-neuron.readthedocs-hosted.com/en/latest/general/nki/index.html)
