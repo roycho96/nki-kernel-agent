@@ -4,7 +4,7 @@ An autonomous, profile-guided optimization agent for [NKI (Neuron Kernel Interfa
 
 The agent is a hybrid of two systems:
 
-- **[AccelOpt](https://arxiv.org/abs/2502.15253)** — an NKI-native kernel optimization framework with a Planner → Executor → Summarizer workflow and optimization memory (slow→fast experience accumulation). Provides the NKI-specific profiling infrastructure, prompt engineering, and domain knowledge.
+- **[AccelOpt](https://github.com/zhang677/AccelOpt)** — an NKI-native kernel optimization framework with a Planner → Executor → Summarizer workflow and optimization memory (slow→fast experience accumulation). Provides the NKI-specific profiling infrastructure, prompt engineering, and domain knowledge.
 - **[KernelAgent](https://github.com/meta-pytorch/KernelAgent)** — Meta's multi-agent GPU kernel synthesis system. Provides the stability patterns: reflexion (structured self-reflection), divergence-based revert, error feedback loops, and experiment history tracking.
 
 AccelOpt handles the *what* (NKI-aware optimization planning and code generation), while KernelAgent patterns handle the *how* (keeping the agent loop stable over many rounds of autonomous execution).
